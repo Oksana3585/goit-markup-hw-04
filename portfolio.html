@@ -43,11 +43,19 @@
         <ul class="auth-nav list">
           <li class="item">
             <a href="mailto:info@devstudio.com" class="link current">
+              <svg class="mailto current" width="16px" height="11px">
+                <use href="./images/sprite.svg#icon-mail"></use>
+              </svg>
               info@devstudio.com</a
             >
           </li>
           <li class="item">
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link">
+              <svg class="mailto" width="10px" height="15px">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -276,7 +284,7 @@
             <p class="footer-addr">г. Киев, пр-т Леси Украинки, 26</p>
             <!--Контакты-->
             <p class="footer-mail">info@devstudio.com</p>
-            <p class="footer-number">+38 099 111 11 11</p>
+            <p class="footer-number">38 099 111 11 11</p>
           </address>
         </div>
 
@@ -284,32 +292,64 @@
         <div class="join-in">
           <h2 class="label">присоединяйтесь</h2>
           <ul class="social-links list">
-            <li>
-              <a href="" class="link" aria-label="Ссылка на Instagram"
-                >Instagram</a
+            <li class="footer-socials">
+              <a
+                href="https://www.instagram.com/"
+                class="link"
+                aria-label="Ссылка на Instagram"
               >
+                <svg class="footer-icon">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="" class="link current" aria-label="Ссылка на Twiter"
-                >Twiter</a
+            <li class="footer-socials current">
+              <a
+                href="https://twitter.com/"
+                class="link"
+                aria-label="Ссылка на Twiter"
               >
+                <svg class="footer-icon">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="" class="link" aria-label="Cсылка на Facebook"
-                >Facebook</a
+            <li class="footer-socials">
+              <a
+                href="https://www.facebook.com/"
+                class="link"
+                aria-label="Cсылка на Facebook"
               >
+                <svg class="footer-icon">
+                  <use href="./images/sprite.svg#icon-facebbok"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="" class="link" aria-label="Ссылка на LinkedIn"
-                >LinkedIn</a
+            <li class="footer-socials">
+              <a
+                href="https://www.linkedin.com/"
+                class="link"
+                aria-label="Ссылка на LinkedIn"
               >
+                <svg class="footer-icon">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
 
-        <div class="subscribe">
-          <h2 class="label">подписаться на рассылку</h2>
-          <a href="" class="button-primary">Подписаться</a>
+        <div class="subscribe-mail">
+          <h2 class="label">подпишитесь на рассылку</h2>
+
+          <div class="subscribe">
+            <a class="button-primary"
+              >Подписаться
+              <svg class="button-subscribe">
+                <use href="./images/sprite.svg#icon-icon-send"></use>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
       <p class="copyright container">2020 | Developed by GoIT Students</p>
